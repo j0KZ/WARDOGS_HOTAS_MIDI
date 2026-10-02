@@ -1,0 +1,4 @@
+__pycache__/
+.pytest_cache/
+Joystick.Gremlin.R16/
+JoystickGremlin-Release_16/

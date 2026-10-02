@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<profile version="14">
+    <inputs/>
+    <logical-device/>
+    <library/>
+    <settings>
+        <startup-mode>Default</startup-mode>
+        <macro-default-delay>0.05</macro-default-delay>
+    </settings>
+    <modes>
+        <mode>Default</mode>
+    </modes>
+    <scripts>
+        <script id="6b1f2c0e-3d4a-4c5b-9e7f-0a1b2c3d4e5f">
+            <property type="path">
+                <name>path</name>
+                <value>..\..\..\k2_collective.py</value>
+            </property>
+            <property type="string">
+                <name>name</name>
+                <value>K2 collective</value>
+            </property>
+            <variable type="string">
+                <property type="string">
+                    <name>name</name>
+                    <value>MIDI device name</value>
+                </property>
+                <property type="string">
+                    <name>value</name>
+                    <value>XONE 96</value>
+                </property>
+            </variable>
+            <variable type="int">
+                <property type="string">
+                    <name>name</name>
+                    <value>MIDI channel</value>
+                </property>
+                <property type="int">
+                    <name>value</name>
+                    <value>16</value>
+                </property>
+            </variable>
+            <variable type="int">
+                <property type="string">
+                    <name>name</name>
+                    <value>Fader CC number</value>
+                </property>
+                <property type="int">
+                    <name>value</name>
+                    <value>19</value>
+                </property>
+            </variable>
+            <variable type="vjoy">
+                <property type="string">
+                    <name>name</name>
+                    <value>Collective vJoy axis</value>
+                </property>
+                <property type="int">
+                    <name>vjoy-id</name>
+                    <value>1</value>
+                </property>
+                <property type="input_type">
+                    <name>input-type</name>
+                    <value>axis</value>
+                </property>
+                <property type="int">
+                    <name>input-id</name>
+                    <value>3</value>
+                </property>
+            </variable>
+            <variable type="bool">
+                <property type="string">
+                    <name>name</name>
+                    <value>Invert</value>
+                </property>
+                <property type="bool">
+                    <name>value</name>
+                    <value>False</value>
+                </property>
+            </variable>
+            <variable type="int">
+                <property type="string">
+                    <name>name</name>
+                    <value>Center deadzone</value>
+                </property>
+                <property type="int">
+                    <name>value</name>
+                    <value>6</value>
+                </property>
+            </variable>
+        </script>
+    </scripts>
+</profile>
